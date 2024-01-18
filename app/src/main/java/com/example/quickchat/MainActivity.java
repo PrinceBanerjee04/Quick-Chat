@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         imglogout=findViewById(R.id.logoutimg);
+
+        //Logout Button
         imglogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
